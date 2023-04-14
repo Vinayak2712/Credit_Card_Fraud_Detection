@@ -5,7 +5,7 @@ import pickle
 from streamlit_option_menu import option_menu
 
 #loading the model 
-fraud_detection_model = pickle.load(open("D:\work\Fraud Detection\Fraud_Detection.sav", 'rb'))
+fraud_detection_model = pickle.load(open("D:\work\Fraud Detection\Fraud_Detection (1).sav", 'rb'))
 
 #creating the side bar
 with st.sidebar:
